@@ -73,9 +73,8 @@ class EventosController extends Controller
             $ubicacion->save();
 
 
-            dd(Evento::all());
         }
-
+            return view('admin/eventos/createAgenda');
     }
 
     /**
