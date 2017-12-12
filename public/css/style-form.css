@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+/*
+
+GENERALES
+
+*/
+
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.obligatorio{
+	color: red;
+}
+
+
+/*
+
+GENERALES
+
+*/
+
+body{
+	width: 100%;
+	background: #CCC;
+	font-size: 16px;
+	font-family: "Roboto";
+}
+
+.contenedor{
+	width: 90%;
+	background: #FFF;
+	margin: 20px auto;
+	padding: 20px;
+	height: auto;
+	transition: width .7s ease;
+}
+
+.comp-form{
+	margin-bottom: 20px;
+}
+
+.fecha-inner{
+	margin-top: 10px;
+	display: block;
+}
+
+.mensaje-portada{
+	font-size: .8em;
+}
+
+.cont-btn{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+textarea{
+	resize: none;
+	min-width: 100%;
+}
+
+input:focus{
+	padding: 0 20px;
+}
+
+textarea:focus{
+	padding: 6px 20px;
+}
+
+@media (min-width: 720px){
+	.contenedor{
+		width: 60%;
+	}
+}
+
+@media (min-width: 1024px){
+	.contenedor{
+		width: 80%;
+	}
+}
+
+
