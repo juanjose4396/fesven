@@ -45,7 +45,7 @@
                     <button class="btn btn-danger">Cancelar</button>
                 </div>
                 <div class="cont-guardar">
-                    <input type="submit" class="btn btn-primary" value="Guardar y continuar">
+                    <input type="submit" class="btn btn-primary" value="Guardar y salir">
                 </div>
             </div>
 
